@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>SOFTWARE RESULT</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        background:black;
+        color:white;
+        display: flex;
+        border: 5px solid white;
+    }
+    header p{
+        margin: 20px 20px 20px 50px;
+        font-size: 50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    nav ul{
+        float: right;
+        text-align: top;
+        margin: 40px 0px 40px 300px;
+    }
+    li{
+        list-style: none;
+        display: inline;
+        margin: 50px 15px;
+        padding: 50px 0px;
+        
+    }
+    li a{
+        text-decoration: none;
+        padding: 10px;
+        color: white;
+        font-weight: bolder;
+    }
+    header ul li a:hover{
+        color: black;
+        background: rgb(240, 5, 161);
+        border-radius: 10px;
+        box-shadow: 0 0 50PX white;
+    }
+    .logo,img{
+        width:80px;
+        margin: 10px 0px 0px 20px;
+        border-radius: 140px;
+        display: inline;
+    }
+    photo img{
+        width: 1000px;
+    }
+    body{
+        background-image: url('https://i.pinimg.com/736x/a0/d8/10/a0d810474c309edd22329b760280a303.jpg');
+        background-repeat: no-repeat;
+        background-size: 100vw;
+        margin-bottom: 0px;
+    }
+    .photo{
+        text-align: center;
+        margin-top: 10%;
+        font-size: 100px;
+        color: green;
+    }
+    footer{
+        background: black;
+        color: white;
+        margin-top: 500px;
+        padding: 0;
+        text-align: center;
+    }
+    .data,table,th,td{
+        border-collapse: collapse;      
+    }
+    .log{
+        border: none;
+        background-color: rgb(209, 243, 243);
+        margin-right: 79%;
+    }
+    .submit{
+        text-align: right;
+        
+    }
+    footer i{
+        margin: 20px;
+    }
+    footer i:hover{
+        background-color: rgb(255, 251, 9);
+    }
+    .submenu{
+        display: none;
+    }
+    #ab:hover .submenu{
+        display: block;
+        background-color: chartreuse;
+        margin: 0;
+        padding: 0;
+    }
+    .num{
+        padding: 20px;
+    }
+</style>
+<header>
+    <div class="logo">
+    <img src="rm.png">
+    </div>
+    <p>MINURAJ</p>
+    <nav>
+        <ul>
+            <li><a href="#"><i class="fa fa-home"></i>Home</a> </li>
+            <li id="ab"><a href="#"><i class="fa fa-user"></i>About Us</a>
+             <div class="submenu">
+              <ul>
+                 <br><li><a href="#">Mission</a></li>
+                 <br><li><a href="#">Vission</a></li>
+                 <br><li><a href="#">Team</a></li>
+              </ul>
+            </div></li>
+            <li><a href="#"><i class="fa fa-clone"></i>Services</a></li>
+            <li><a href="#"><i class="fa fa-book"></i>Courses</a></li>
+            <li><a href="#"><i class="fa fa-phone"></i>Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <p class="photo">RAJAWANT YADAV</p>
+    <table class="data" border="2">
+        <tr>
+            <th>NAME</th><th>Contact No</th>
+        </tr>
+        <tr>
+            <td>Rajawant Yadav</td><td>8601905196</td>
+        </tr>
+        <tr>
+            <td>Ranjit Kumar Chauhan</td><td>8601905196</td>
+        </tr>
+        <tr>
+            <td>Sudhir Kharawar</td><td>8601905196</td>
+        </tr>
+        <tr>
+            <td>Abhishek Rauniyar</td><td>8601905196</td>
+        </tr>
+        <tr>
+            <td>Ankit Rauniyar</td><td>8601905196</td>
+        </tr>
+    </table><br><br>
+    <form style="text-align: center; float:center; border: 5px solid orange;" class="log" action="#">
+        <table>
+            <th style="text-align: center; color: rgb(7, 31, 248);">LOG IN</th>
+            <tr>
+                <td>USER ID:</td>
+                <td>
+                    <input type="name" placeholder="Userid" required>
+                </td>
+            </tr><br>
+            <tr>
+                <td>PASSWORD:</td>
+                <td>
+                    <input type="password" placeholder="password" required>
+                </td>
+            </tr>
+            <tr class="button">
+                <td>
+                    <input style="background-color: rgb(120, 238, 120);" type="submit" value="Submit">
+                </td>
+                <td>
+                    <input style="background-color: red;" type="reset" value="Reset">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+    <br><br>
+    <footer class="num">
+        <p>Copyright &copy MINURAJ 2023</p>
+        <p>Contact Us on:-</p>
+        <p>Phone No. : 8601905196,8756754967</p>
+        <p>Email: rajawantyadav436@gmail.com<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspminakshisingh0909@gmail.com</p><br>
+        <h1 style="color: rgb(9, 238, 28);"><u>Follow Us On</u></h1>
+        <a style="color: green;" href="https://wa.me/qr/AU7VBDTSPOGYI1"><i class="fa fa-3x fa-whatsapp"></i></a>
+        <a style="color: blue;" href="https://m.facebook.com/profile.php?id=100028069223424"><i class="fa fa-3x fa-facebook"></i></a>
+        <a style="color: red;" href="https://www.youtube.com/@SoftwareResult"><i class="fa fa-3x fa-youtube"></i></a>
+        <a style="color: rgb(223, 14, 101);" href="#"><i class="fa fa-3x fa-instagram"></i></a>
+        <a style="color: blue;" href="#"><i class="fa fa-3x fa-twitter"></i></a>
+        <a style="color: rgb(7, 156, 241);" href="https://www.linkedin.com/in/rajawant-yadav-15b341244"><i class="fa fa-3x fa-linkedin"></i></a>
+        <a style="color: white;" href="https://github.com/rajcodingclub"><i class="fa fa-3x fa-github"></i></a>
+    </footer
+    </body>
+</html>
